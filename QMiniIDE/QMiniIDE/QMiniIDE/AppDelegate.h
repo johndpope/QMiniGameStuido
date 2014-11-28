@@ -8,7 +8,15 @@
 
 #import <Cocoa/Cocoa.h>
 
+@class QMMainViewController;
+@class QMAboutWindow;
+
 @interface AppDelegate : NSObject <NSApplicationDelegate>
+
+@property  (nonatomic, strong) QMMainViewController* mainViewController;
+@property (strong) QMAboutWindow* aboutWindow;
+
+-(IBAction)menuAbout:(id)sender;
 
 
 @end

@@ -12,6 +12,10 @@
 		7EAFA79C1A2817B60047D9AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EAFA79B1A2817B60047D9AF /* Images.xcassets */; };
 		7EAFA79F1A2817B60047D9AF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EAFA79D1A2817B60047D9AF /* MainMenu.xib */; };
 		7EAFA7AB1A2817B60047D9AF /* QMiniIDETests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAFA7AA1A2817B60047D9AF /* QMiniIDETests.m */; };
+		7EAFA7B71A2820070047D9AF /* QMAbout.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EAFA7B61A2820070047D9AF /* QMAbout.xib */; };
+		7EAFA7BA1A2821A00047D9AF /* QMAboutWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAFA7B91A2821A00047D9AF /* QMAboutWindow.m */; };
+		7EAFA7C21A2848950047D9AF /* QMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAFA7C01A2848950047D9AF /* QMMainViewController.m */; };
+		7EAFA7C31A2848950047D9AF /* QMMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EAFA7C11A2848950047D9AF /* QMMainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,12 @@
 		7EAFA7A41A2817B60047D9AF /* QMiniIDETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QMiniIDETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EAFA7A91A2817B60047D9AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7EAFA7AA1A2817B60047D9AF /* QMiniIDETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QMiniIDETests.m; sourceTree = "<group>"; };
+		7EAFA7B61A2820070047D9AF /* QMAbout.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = QMAbout.xib; path = About/QMAbout.xib; sourceTree = "<group>"; };
+		7EAFA7B81A2821A00047D9AF /* QMAboutWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QMAboutWindow.h; path = About/QMAboutWindow.h; sourceTree = "<group>"; };
+		7EAFA7B91A2821A00047D9AF /* QMAboutWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QMAboutWindow.m; path = About/QMAboutWindow.m; sourceTree = "<group>"; };
+		7EAFA7BF1A2848950047D9AF /* QMMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QMMainViewController.h; path = MainView/QMMainViewController.h; sourceTree = "<group>"; };
+		7EAFA7C01A2848950047D9AF /* QMMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QMMainViewController.m; path = MainView/QMMainViewController.m; sourceTree = "<group>"; };
+		7EAFA7C11A2848950047D9AF /* QMMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = QMMainViewController.xib; path = MainView/QMMainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +86,8 @@
 		7EAFA7931A2817B60047D9AF /* QMiniIDE */ = {
 			isa = PBXGroup;
 			children = (
+				7EAFA7BE1A2848290047D9AF /* MainView */,
+				7EAFA7B51A281FBD0047D9AF /* About */,
 				7EAFA7961A2817B60047D9AF /* AppDelegate.h */,
 				7EAFA7971A2817B60047D9AF /* AppDelegate.m */,
 				7EAFA79B1A2817B60047D9AF /* Images.xcassets */,
@@ -109,6 +121,26 @@
 				7EAFA7A91A2817B60047D9AF /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7EAFA7B51A281FBD0047D9AF /* About */ = {
+			isa = PBXGroup;
+			children = (
+				7EAFA7B61A2820070047D9AF /* QMAbout.xib */,
+				7EAFA7B81A2821A00047D9AF /* QMAboutWindow.h */,
+				7EAFA7B91A2821A00047D9AF /* QMAboutWindow.m */,
+			);
+			name = About;
+			sourceTree = "<group>";
+		};
+		7EAFA7BE1A2848290047D9AF /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				7EAFA7BF1A2848950047D9AF /* QMMainViewController.h */,
+				7EAFA7C01A2848950047D9AF /* QMMainViewController.m */,
+				7EAFA7C11A2848950047D9AF /* QMMainViewController.xib */,
+			);
+			name = MainView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,7 +224,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EAFA79C1A2817B60047D9AF /* Images.xcassets in Resources */,
+				7EAFA7B71A2820070047D9AF /* QMAbout.xib in Resources */,
 				7EAFA79F1A2817B60047D9AF /* MainMenu.xib in Resources */,
+				7EAFA7C31A2848950047D9AF /* QMMainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,8 +244,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EAFA7BA1A2821A00047D9AF /* QMAboutWindow.m in Sources */,
 				7EAFA79A1A2817B60047D9AF /* main.m in Sources */,
 				7EAFA7981A2817B60047D9AF /* AppDelegate.m in Sources */,
+				7EAFA7C21A2848950047D9AF /* QMMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

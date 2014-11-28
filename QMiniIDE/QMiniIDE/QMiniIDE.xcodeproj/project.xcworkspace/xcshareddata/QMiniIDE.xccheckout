@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3EE88E90-5880-444B-88BE-011EF35AA628</string>
+	<key>IDESourceControlProjectName</key>
+	<string>QMiniIDE</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6DA6EDA6D59124341231C39009FCB519A9C6C7C9</key>
+		<string>https://github.com/binglingshuang/QMiniGameStuido.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>QMiniIDE/QMiniIDE/QMiniIDE.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6DA6EDA6D59124341231C39009FCB519A9C6C7C9</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/binglingshuang/QMiniGameStuido.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6DA6EDA6D59124341231C39009FCB519A9C6C7C9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6DA6EDA6D59124341231C39009FCB519A9C6C7C9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>QMiniGameStudio</string>
+		</dict>
+	</array>
+</dict>
+</plist>
