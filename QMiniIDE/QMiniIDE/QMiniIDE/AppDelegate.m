@@ -20,10 +20,9 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
-    self.mainViewController = [[QMMainViewController alloc] initWithNibName:@"QMMainViewController" bundle:nil];
-    
-    [self.window.contentView addSubview:self.mainViewController.view];
-    self.mainViewController.view.frame = ((NSView*)self.window.contentView).bounds;
+   
+    self.mainViewController = [[QMMainViewController alloc] initWithWindowNibName:@"QMMainWindow"];
+    [self.mainViewController showWindow:self];
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {

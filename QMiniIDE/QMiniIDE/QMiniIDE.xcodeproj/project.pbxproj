@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E9031D71A2BFFC5007ACFF6 /* QMViewBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9031D61A2BFFC5007ACFF6 /* QMViewBase.m */; };
+		7E9031DB1A2C04F6007ACFF6 /* NSView+BackgroundColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9031DA1A2C04F6007ACFF6 /* NSView+BackgroundColor.m */; };
+		7E9031DF1A2C0B03007ACFF6 /* QMPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E9031DD1A2C0B03007ACFF6 /* QMPreviewController.m */; };
+		7E9031E01A2C0B03007ACFF6 /* QMPreviewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E9031DE1A2C0B03007ACFF6 /* QMPreviewController.xib */; };
+		7EAC8A871A28658F0035C807 /* QMResourceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAC8A851A28658F0035C807 /* QMResourceController.m */; };
+		7EAC8A881A28658F0035C807 /* QMResourceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EAC8A861A28658F0035C807 /* QMResourceView.xib */; };
 		7EAFA7981A2817B60047D9AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAFA7971A2817B60047D9AF /* AppDelegate.m */; };
 		7EAFA79A1A2817B60047D9AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAFA7991A2817B60047D9AF /* main.m */; };
 		7EAFA79C1A2817B60047D9AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EAFA79B1A2817B60047D9AF /* Images.xcassets */; };
@@ -15,7 +21,7 @@
 		7EAFA7B71A2820070047D9AF /* QMAbout.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EAFA7B61A2820070047D9AF /* QMAbout.xib */; };
 		7EAFA7BA1A2821A00047D9AF /* QMAboutWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAFA7B91A2821A00047D9AF /* QMAboutWindow.m */; };
 		7EAFA7C21A2848950047D9AF /* QMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAFA7C01A2848950047D9AF /* QMMainViewController.m */; };
-		7EAFA7C31A2848950047D9AF /* QMMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EAFA7C11A2848950047D9AF /* QMMainViewController.xib */; };
+		7EAFA7C31A2848950047D9AF /* QMMainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EAFA7C11A2848950047D9AF /* QMMainWindow.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +35,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7E9031D51A2BFFC5007ACFF6 /* QMViewBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QMViewBase.h; path = MainView/Base/QMViewBase.h; sourceTree = "<group>"; };
+		7E9031D61A2BFFC5007ACFF6 /* QMViewBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QMViewBase.m; path = MainView/Base/QMViewBase.m; sourceTree = "<group>"; };
+		7E9031D91A2C04F6007ACFF6 /* NSView+BackgroundColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSView+BackgroundColor.h"; path = "Util/Categories/NSView+BackgroundColor.h"; sourceTree = "<group>"; };
+		7E9031DA1A2C04F6007ACFF6 /* NSView+BackgroundColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSView+BackgroundColor.m"; path = "Util/Categories/NSView+BackgroundColor.m"; sourceTree = "<group>"; };
+		7E9031DC1A2C0B03007ACFF6 /* QMPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QMPreviewController.h; path = MainView/QMPreviewController.h; sourceTree = "<group>"; };
+		7E9031DD1A2C0B03007ACFF6 /* QMPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QMPreviewController.m; path = MainView/QMPreviewController.m; sourceTree = "<group>"; };
+		7E9031DE1A2C0B03007ACFF6 /* QMPreviewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = QMPreviewController.xib; path = MainView/QMPreviewController.xib; sourceTree = "<group>"; };
+		7EAC8A841A28658F0035C807 /* QMResourceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QMResourceController.h; path = MainView/QMResourceController.h; sourceTree = "<group>"; };
+		7EAC8A851A28658F0035C807 /* QMResourceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QMResourceController.m; path = MainView/QMResourceController.m; sourceTree = "<group>"; };
+		7EAC8A861A28658F0035C807 /* QMResourceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = QMResourceView.xib; path = MainView/QMResourceView.xib; sourceTree = "<group>"; };
+		7EAC8A8A1A286A750035C807 /* QMCommonMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = QMCommonMacro.h; path = Util/QMCommonMacro.h; sourceTree = "<group>"; };
 		7EAFA7911A2817B60047D9AF /* QMiniIDE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QMiniIDE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EAFA7951A2817B60047D9AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7EAFA7961A2817B60047D9AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -44,7 +61,7 @@
 		7EAFA7B91A2821A00047D9AF /* QMAboutWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QMAboutWindow.m; path = About/QMAboutWindow.m; sourceTree = "<group>"; };
 		7EAFA7BF1A2848950047D9AF /* QMMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QMMainViewController.h; path = MainView/QMMainViewController.h; sourceTree = "<group>"; };
 		7EAFA7C01A2848950047D9AF /* QMMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QMMainViewController.m; path = MainView/QMMainViewController.m; sourceTree = "<group>"; };
-		7EAFA7C11A2848950047D9AF /* QMMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = QMMainViewController.xib; path = MainView/QMMainViewController.xib; sourceTree = "<group>"; };
+		7EAFA7C11A2848950047D9AF /* QMMainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = QMMainWindow.xib; path = MainView/QMMainWindow.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +82,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E9031D41A2BFF9C007ACFF6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				7E9031D51A2BFFC5007ACFF6 /* QMViewBase.h */,
+				7E9031D61A2BFFC5007ACFF6 /* QMViewBase.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		7E9031D81A2C04AA007ACFF6 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				7E9031D91A2C04F6007ACFF6 /* NSView+BackgroundColor.h */,
+				7E9031DA1A2C04F6007ACFF6 /* NSView+BackgroundColor.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		7EAC8A891A286A560035C807 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				7E9031D81A2C04AA007ACFF6 /* Categories */,
+				7EAC8A8A1A286A750035C807 /* QMCommonMacro.h */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
 		7EAFA7881A2817B60047D9AF = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +130,7 @@
 		7EAFA7931A2817B60047D9AF /* QMiniIDE */ = {
 			isa = PBXGroup;
 			children = (
+				7EAC8A891A286A560035C807 /* Util */,
 				7EAFA7BE1A2848290047D9AF /* MainView */,
 				7EAFA7B51A281FBD0047D9AF /* About */,
 				7EAFA7961A2817B60047D9AF /* AppDelegate.h */,
@@ -136,9 +181,16 @@
 		7EAFA7BE1A2848290047D9AF /* MainView */ = {
 			isa = PBXGroup;
 			children = (
+				7E9031D41A2BFF9C007ACFF6 /* Base */,
 				7EAFA7BF1A2848950047D9AF /* QMMainViewController.h */,
 				7EAFA7C01A2848950047D9AF /* QMMainViewController.m */,
-				7EAFA7C11A2848950047D9AF /* QMMainViewController.xib */,
+				7EAFA7C11A2848950047D9AF /* QMMainWindow.xib */,
+				7EAC8A841A28658F0035C807 /* QMResourceController.h */,
+				7EAC8A851A28658F0035C807 /* QMResourceController.m */,
+				7EAC8A861A28658F0035C807 /* QMResourceView.xib */,
+				7E9031DC1A2C0B03007ACFF6 /* QMPreviewController.h */,
+				7E9031DD1A2C0B03007ACFF6 /* QMPreviewController.m */,
+				7E9031DE1A2C0B03007ACFF6 /* QMPreviewController.xib */,
 			);
 			name = MainView;
 			sourceTree = "<group>";
@@ -226,7 +278,9 @@
 				7EAFA79C1A2817B60047D9AF /* Images.xcassets in Resources */,
 				7EAFA7B71A2820070047D9AF /* QMAbout.xib in Resources */,
 				7EAFA79F1A2817B60047D9AF /* MainMenu.xib in Resources */,
-				7EAFA7C31A2848950047D9AF /* QMMainViewController.xib in Resources */,
+				7EAFA7C31A2848950047D9AF /* QMMainWindow.xib in Resources */,
+				7E9031E01A2C0B03007ACFF6 /* QMPreviewController.xib in Resources */,
+				7EAC8A881A28658F0035C807 /* QMResourceView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,8 +298,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E9031DB1A2C04F6007ACFF6 /* NSView+BackgroundColor.m in Sources */,
 				7EAFA7BA1A2821A00047D9AF /* QMAboutWindow.m in Sources */,
+				7EAC8A871A28658F0035C807 /* QMResourceController.m in Sources */,
 				7EAFA79A1A2817B60047D9AF /* main.m in Sources */,
+				7E9031DF1A2C0B03007ACFF6 /* QMPreviewController.m in Sources */,
+				7E9031D71A2BFFC5007ACFF6 /* QMViewBase.m in Sources */,
 				7EAFA7981A2817B60047D9AF /* AppDelegate.m in Sources */,
 				7EAFA7C21A2848950047D9AF /* QMMainViewController.m in Sources */,
 			);
@@ -434,6 +492,7 @@
 				7EAFA7B01A2817B60047D9AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7EAFA7B11A2817B60047D9AF /* Build configuration list for PBXNativeTarget "QMiniIDETests" */ = {
 			isa = XCConfigurationList;
@@ -442,6 +501,7 @@
 				7EAFA7B31A2817B60047D9AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

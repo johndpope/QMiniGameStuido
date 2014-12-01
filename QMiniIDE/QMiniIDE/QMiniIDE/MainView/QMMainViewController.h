@@ -8,6 +8,14 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface QMMainViewController : NSViewController
+@class QMResourceController;
+
+
+@interface QMMainViewController : NSWindowController
+
+// other views
+@property (nonatomic, strong) QMResourceController* resourceController;
+
+- (IBAction)Test:(id)sender;
 
 @end
