@@ -8,13 +8,15 @@
 
 #import <Cocoa/Cocoa.h>
 
-@class QMResourceController;
-
+@class QMProjectViewController;
+@class QMPreviewController;
 
 @interface QMMainViewController : NSWindowController
 
 // other views
-@property (nonatomic, strong) QMResourceController* resourceController;
+@property (nonatomic, strong) QMProjectViewController* resourceController;
+@property (nonatomic, strong) QMPreviewController* previewController;
+@property (strong) IBOutlet NSSplitView *mainSplitView;
 
 - (IBAction)Test:(id)sender;
 

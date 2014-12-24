@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6254"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="QMMainViewController">
+            <connections>
+                <outlet property="mainSplitView" destination="xlU-BH-75P" id="CnD-bK-8m6"/>
+                <outlet property="window" destination="m3v-fk-Sv6" id="vdR-c9-zOI"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" animationBehavior="default" id="m3v-fk-Sv6">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="131" y="159" width="1042" height="540"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
+            <view key="contentView" id="HwC-Rn-pTE">
+                <rect key="frame" x="0.0" y="0.0" width="1042" height="540"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <splitView fixedFrame="YES" vertical="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xlU-BH-75P">
+                        <rect key="frame" x="0.0" y="7" width="1033" height="533"/>
+                    </splitView>
+                </subviews>
+            </view>
+            <toolbar key="toolbar" implicitIdentifier="70280C96-247E-47B7-A32E-ABBD14B407A6" autosavesConfiguration="NO" displayMode="iconAndLabel" sizeMode="regular" id="e6t-93-bdF">
+                <allowedToolbarItems>
+                    <toolbarItem implicitItemIdentifier="NSToolbarShowColorsItem" id="Neh-W4-DhC"/>
+                    <toolbarItem implicitItemIdentifier="NSToolbarShowFontsItem" id="L0t-HL-req"/>
+                    <toolbarItem implicitItemIdentifier="NSToolbarPrintItem" id="IGG-Dk-fVj"/>
+                    <toolbarItem implicitItemIdentifier="NSToolbarSpaceItem" id="o5V-0e-Xch"/>
+                    <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="tR5-xz-ozk"/>
+                </allowedToolbarItems>
+                <defaultToolbarItems>
+                    <toolbarItem reference="Neh-W4-DhC"/>
+                    <toolbarItem reference="L0t-HL-req"/>
+                    <toolbarItem reference="tR5-xz-ozk"/>
+                    <toolbarItem reference="IGG-Dk-fVj"/>
+                </defaultToolbarItems>
+            </toolbar>
+            <point key="canvasLocation" x="432" y="264"/>
+        </window>
+    </objects>
+</document>
