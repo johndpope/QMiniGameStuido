@@ -9,7 +9,12 @@
 #import "QMProjectViewController.h"
 //#import "NSView+BackgroundColor.h"
 
-#import "QMFolderInfo.h"
+#import "FileSystemItem.h"
+
+// data
+#include "QMProjectData.h"
+
+
 
 @interface QMProjectViewController ()
 
@@ -32,52 +37,57 @@
     // Do view setup here.
 }
 
-
-- (void) setRootPath:(NSString*) path
+- (NSString*) rootPath
 {
-    if(![path isEqualToString:[self rootPath]])
-    {
-        mRootInfo = [[QMFolderInfo alloc] initWithPath:path];
-//        [mRootInfo setIncludesPackages:[self includesFilePackages]];
-        [_projectTree reloadData];
-        [_projectTree selectRow:-1 byExtendingSelection:NO];
-        
-        //NSLog(@"folders: %@", mRootInfo);
-    }
+    const char* path = QMProjectData::getInstance()->getPath();
+    mRootPath = [NSString stringWithUTF8String:path];
+    return mRootPath;
 }
-
-- (NSArray*) sortedFoldersOfItem:(QMFolderInfo*) fi usingSortDescriptors:(NSArray*) sortDescriptors
-{
-    NSMutableArray*		folders = [[fi subFolders] mutableCopy];
-    [folders sortUsingDescriptors:sortDescriptors];
-    return folders;
-}
-
 
 #pragma mark -
 #pragma mark - as a NSOutlineViewDataSource
 - (NSInteger)outlineView:(NSOutlineView *)outlineView numberOfChildrenOfItem:(id)item
 {
 #pragma unused(outlineView)
-    if( item == nil )
-        return 1;
-    else
-        return [item valence];
+ 
+    return (item == nil) ? 1 : [item numberOfChildren];
 }
 
 - (id)outlineView:(NSOutlineView *)outlineView child:(NSInteger)index ofItem:(id)item
 {
 #pragma unused(outlineView)
-    
-    if( item == nil )
-        return mRootInfo;
-    else
-        return [[self sortedFoldersOfItem:item usingSortDescriptors:[_projectTree sortDescriptors]] objectAtIndex:index];
+
+    return (item == nil) ? [FileSystemItem rootItem:[self rootPath]] : [(FileSystemItem *)item childAtIndex:index];
 }
 
 - (BOOL)outlineView:(NSOutlineView *)outlineView isItemExpandable:(id)item
 {
-    return YES;
+    return (item == nil) ? YES : ([item numberOfChildren] != -1);
 }
+
+- (id)outlineView:(NSOutlineView *)outlineView objectValueForTableColumn:(NSTableColumn *)tableColumn byItem:(id)item
+{
+    return (item == nil) ? @"/" : [item relativePath];
+}
+
+#pragma mark -
+#pragma mark - as a NSOutlineView delegate
+- (void)		outlineViewSelectionDidChange:(NSNotification*) notification
+{
+    int rowIndex = [_projectTree selectedRow];
+    
+    FileSystemItem* fi = ( rowIndex == -1)? nil : [_projectTree itemAtRow:rowIndex];
+    NSLog(@"item %@", [fi fullPath]);
+}
+//- (void)		outlineView:(NSOutlineView*) olv willDisplayCell:(NSCell*) cell forTableColumn:(NSTableColumn*) tableColumn item:(id) item
+//{
+//#pragma unused(olv)
+//    
+//    if ([[tableColumn identifier] isEqualToString:@"name"] && [cell respondsToSelector:@selector(setTextFieldIcon:)])
+//    {
+//        
+//    }
+//        //[(GCIconTextFieldCell*) cell setTextFieldIcon:[item icon]];
+//}
 
 @end

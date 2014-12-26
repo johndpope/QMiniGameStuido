@@ -8,16 +8,14 @@
 
 #import <Cocoa/Cocoa.h>
 
-@class QMFolderInfo;
 
 @interface QMProjectViewController : NSViewController<NSOutlineViewDataSource>
 {
-    QMFolderInfo*				mRootInfo;
+
+    NSString*                   mRootPath;
 }
 
 @property (strong) IBOutlet NSOutlineView *projectTree;
 
-
-- (NSArray*)		sortedFoldersOfItem:(QMFolderInfo*) fi usingSortDescriptors:(NSArray*) sortDescriptors;
 
 @end
