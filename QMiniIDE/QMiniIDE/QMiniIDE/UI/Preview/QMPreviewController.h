@@ -8,6 +8,13 @@
 
 #import <Cocoa/Cocoa.h>
 
+@class QMPreviewer;
+
 @interface QMPreviewController : NSViewController
+
+@property (strong, nonatomic) QMPreviewer* previewer;
+
+
+- (void) onProjectItemSelected:(NSNotification *) notification;
 
 @end

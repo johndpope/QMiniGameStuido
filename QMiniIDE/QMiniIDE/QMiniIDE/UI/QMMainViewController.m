@@ -10,6 +10,7 @@
 #import "QMMainViewController.h"
 #import "QMProjectViewController.h"
 #import "QMPreviewController.h"
+#import "QMSceneViewController.h"
 
 @interface QMMainViewController ()
 
@@ -35,15 +36,16 @@
     NSLog(@"%@", NSStringFromSelector(_cmd));
     // add other view to window
     
+    [self setSceneViewController:[[QMSceneViewController alloc] initWithNibName:@"QMSceneViewController" bundle:nil]];
+    NSView * resourcevView = [[self resourceController] view];
+    resourcevView.frame = CGRectMake(0,0, resourcevView.frame.size.width, resourcevView.frame.size.height);
+    [_mainSplitView addSubview:resourcevView];
+    
     [self setResourceController:[[QMProjectViewController alloc] initWithNibName:@"QMProjectView" bundle:nil]];
     NSView * resourcevView = [[self resourceController] view];
     resourcevView.frame = CGRectMake(0,0, resourcevView.frame.size.width, resourcevView.frame.size.height);
     [_mainSplitView addSubview:resourcevView];
-//    [resourcevView registerForDraggedTypes:[NSArray arrayWithObjects:@"MyCustomOutlineViewPboardType", NSStringPboardType, NSFilenamesPboardType, nil]];
-//    [resourcevView setDraggingSourceOperationMask:NSDragOperationEvery forLocal:YES];
-//    [resourcevView setDraggingSourceOperationMask:NSDragOperationEvery forLocal:NO];
-//    [resourcevView setAutoresizesOutlineColumn:NO];
-    
+   
     
     // add preview view to window
     [self setPreviewController:[[QMPreviewController alloc] initWithNibName:@"QMPreviewController" bundle:nil]];

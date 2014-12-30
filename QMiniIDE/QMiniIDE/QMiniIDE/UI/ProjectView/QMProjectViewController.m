@@ -74,11 +74,18 @@
 #pragma mark - as a NSOutlineView delegate
 - (void)		outlineViewSelectionDidChange:(NSNotification*) notification
 {
-    int rowIndex = [_projectTree selectedRow];
+    NSInteger rowIndex = [_projectTree selectedRow];
     
     FileSystemItem* fi = ( rowIndex == -1)? nil : [_projectTree itemAtRow:rowIndex];
     NSLog(@"item %@", [fi fullPath]);
+    
+    [[NSNotificationCenter defaultCenter]
+     postNotificationName:@"NF_PROJECT_ITEM_SELECT"
+     object:[fi fullPath]];
+    
 }
+
+
 //- (void)		outlineView:(NSOutlineView*) olv willDisplayCell:(NSCell*) cell forTableColumn:(NSTableColumn*) tableColumn item:(id) item
 //{
 //#pragma unused(olv)

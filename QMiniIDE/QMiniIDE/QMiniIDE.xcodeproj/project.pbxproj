@@ -16,6 +16,10 @@
 		7EAFA7AB1A2817B60047D9AF /* QMiniIDETests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAFA7AA1A2817B60047D9AF /* QMiniIDETests.m */; };
 		7EAFA7B71A2820070047D9AF /* QMAbout.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EAFA7B61A2820070047D9AF /* QMAbout.xib */; };
 		7EAFA7BA1A2821A00047D9AF /* QMAboutWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAFA7B91A2821A00047D9AF /* QMAboutWindow.m */; };
+		7ED6A5D01A524D8900C3606F /* QQDirector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7ED6A5CE1A524D8900C3606F /* QQDirector.cpp */; };
+		7ED6A5D41A52533A00C3606F /* QMSceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED6A5D21A52533A00C3606F /* QMSceneViewController.m */; };
+		7ED6A5D51A52533A00C3606F /* QMSceneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7ED6A5D31A52533A00C3606F /* QMSceneViewController.xib */; };
+		7ED6A5D81A52535800C3606F /* QMSceneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ED6A5D71A52535800C3606F /* QMSceneView.m */; };
 		7EDEF6C81A4A68A900645F8C /* QMProjectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDEF6C41A4A68A900645F8C /* QMProjectView.m */; };
 		7EDEF6C91A4A68A900645F8C /* QMProjectView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EDEF6C51A4A68A900645F8C /* QMProjectView.xib */; };
 		7EDEF6CA1A4A68A900645F8C /* QMProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDEF6C71A4A68A900645F8C /* QMProjectViewController.m */; };
@@ -62,6 +66,13 @@
 		7EAFA7B61A2820070047D9AF /* QMAbout.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = QMAbout.xib; path = About/QMAbout.xib; sourceTree = "<group>"; };
 		7EAFA7B81A2821A00047D9AF /* QMAboutWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QMAboutWindow.h; path = About/QMAboutWindow.h; sourceTree = "<group>"; };
 		7EAFA7B91A2821A00047D9AF /* QMAboutWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QMAboutWindow.m; path = About/QMAboutWindow.m; sourceTree = "<group>"; };
+		7ED6A5CE1A524D8900C3606F /* QQDirector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = QQDirector.cpp; path = QQLib/Base/QQDirector.cpp; sourceTree = "<group>"; };
+		7ED6A5CF1A524D8900C3606F /* QQDirector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QQDirector.h; path = QQLib/Base/QQDirector.h; sourceTree = "<group>"; };
+		7ED6A5D11A52533A00C3606F /* QMSceneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QMSceneViewController.h; path = UI/SceneView/QMSceneViewController.h; sourceTree = "<group>"; };
+		7ED6A5D21A52533A00C3606F /* QMSceneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QMSceneViewController.m; path = UI/SceneView/QMSceneViewController.m; sourceTree = "<group>"; };
+		7ED6A5D31A52533A00C3606F /* QMSceneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = QMSceneViewController.xib; path = UI/SceneView/QMSceneViewController.xib; sourceTree = "<group>"; };
+		7ED6A5D61A52535800C3606F /* QMSceneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QMSceneView.h; path = UI/SceneView/QMSceneView.h; sourceTree = "<group>"; };
+		7ED6A5D71A52535800C3606F /* QMSceneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QMSceneView.m; path = UI/SceneView/QMSceneView.m; sourceTree = "<group>"; };
 		7EDEF6C31A4A68A900645F8C /* QMProjectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMProjectView.h; sourceTree = "<group>"; };
 		7EDEF6C41A4A68A900645F8C /* QMProjectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMProjectView.m; sourceTree = "<group>"; };
 		7EDEF6C51A4A68A900645F8C /* QMProjectView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QMProjectView.xib; sourceTree = "<group>"; };
@@ -170,6 +181,7 @@
 		7EAFA7931A2817B60047D9AF /* QMiniIDE */ = {
 			isa = PBXGroup;
 			children = (
+				7ED6A5CA1A52343400C3606F /* QQLib */,
 				7E0DBAD71A4D2F0000338412 /* Data */,
 				7EF250C21A2EA6BC00D7D33A /* Frameworks */,
 				7EAC8A891A286A560035C807 /* Util */,
@@ -245,6 +257,31 @@
 			name = HierarchyView;
 			sourceTree = "<group>";
 		};
+		7ED6A5CA1A52343400C3606F /* QQLib */ = {
+			isa = PBXGroup;
+			children = (
+				7ED6A5CD1A524D5000C3606F /* Base */,
+				7ED6A5CB1A523DF700C3606F /* Render */,
+			);
+			name = QQLib;
+			sourceTree = "<group>";
+		};
+		7ED6A5CB1A523DF700C3606F /* Render */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Render;
+			sourceTree = "<group>";
+		};
+		7ED6A5CD1A524D5000C3606F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				7ED6A5CE1A524D8900C3606F /* QQDirector.cpp */,
+				7ED6A5CF1A524D8900C3606F /* QQDirector.h */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
 		7EDEF6CB1A4A68BB00645F8C /* InspectorView */ = {
 			isa = PBXGroup;
 			children = (
@@ -289,6 +326,11 @@
 		7EF250CE1A2EACEC00D7D33A /* SceneView */ = {
 			isa = PBXGroup;
 			children = (
+				7ED6A5D11A52533A00C3606F /* QMSceneViewController.h */,
+				7ED6A5D21A52533A00C3606F /* QMSceneViewController.m */,
+				7ED6A5D31A52533A00C3606F /* QMSceneViewController.xib */,
+				7ED6A5D61A52535800C3606F /* QMSceneView.h */,
+				7ED6A5D71A52535800C3606F /* QMSceneView.m */,
 			);
 			name = SceneView;
 			sourceTree = "<group>";
@@ -405,6 +447,7 @@
 				7EDEF6C91A4A68A900645F8C /* QMProjectView.xib in Resources */,
 				7EAFA7B71A2820070047D9AF /* QMAbout.xib in Resources */,
 				7EAFA79F1A2817B60047D9AF /* MainMenu.xib in Resources */,
+				7ED6A5D51A52533A00C3606F /* QMSceneViewController.xib in Resources */,
 				7EF250D51A2EAE0200D7D33A /* QMPreviewController.xib in Resources */,
 				7EDEF6D01A4A68F700645F8C /* QMInspectorViewController.xib in Resources */,
 			);
@@ -430,6 +473,7 @@
 				7EDEF6D31A4A691700645F8C /* QMInspectorView.m in Sources */,
 				7EAFA7BA1A2821A00047D9AF /* QMAboutWindow.m in Sources */,
 				7EAFA79A1A2817B60047D9AF /* main.m in Sources */,
+				7ED6A5D41A52533A00C3606F /* QMSceneViewController.m in Sources */,
 				7EDEF6CF1A4A68F700645F8C /* QMInspectorViewController.m in Sources */,
 				7EF250DE1A2EAE5100D7D33A /* QMMainViewController.m in Sources */,
 				7EF250D41A2EAE0200D7D33A /* QMPreviewController.m in Sources */,
@@ -437,6 +481,8 @@
 				7EF250D91A2EAE1000D7D33A /* QMViewBase.m in Sources */,
 				7EAFA7981A2817B60047D9AF /* AppDelegate.m in Sources */,
 				7E0DBADB1A4D2FC900338412 /* QMProjectData.cpp in Sources */,
+				7ED6A5D01A524D8900C3606F /* QQDirector.cpp in Sources */,
+				7ED6A5D81A52535800C3606F /* QMSceneView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -551,6 +597,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					QM_DEBUG,
+				);
 				INFOPLIST_FILE = QMiniIDE/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

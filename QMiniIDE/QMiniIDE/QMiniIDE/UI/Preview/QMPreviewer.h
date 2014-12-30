@@ -9,5 +9,12 @@
 #import <Cocoa/Cocoa.h>
 
 @interface QMPreviewer : NSOpenGLView
+{
+    NSString* _imagePath;
+}
 
+- (void) setImagePath :(NSString*) imagePath;
+- (void) redraw;
+
+- (void) getTexture;
 @end

@@ -10,12 +10,20 @@
 
 @class QMProjectViewController;
 @class QMPreviewController;
+@class QMSceneViewController;
 
 @interface QMMainViewController : NSWindowController
+{
+   
+}
+
+
+
 
 // other views
 @property (nonatomic, strong) QMProjectViewController* resourceController;
 @property (nonatomic, strong) QMPreviewController* previewController;
+@property (nonatomic, strong) QMSceneViewController* sceneViewController;
 @property (strong) IBOutlet NSSplitView *mainSplitView;
 
 - (IBAction)Test:(id)sender;
