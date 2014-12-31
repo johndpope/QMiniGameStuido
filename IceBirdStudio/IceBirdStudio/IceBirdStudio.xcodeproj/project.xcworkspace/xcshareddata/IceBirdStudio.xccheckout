@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>00CD53CB-D21E-4A07-81F3-46EC4BD331F0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>IceBirdStudio</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6DA6EDA6D59124341231C39009FCB519A9C6C7C9</key>
+		<string>https://github.com/binglingshuang/QMiniGameStuido.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>IceBirdStudio/IceBirdStudio/IceBirdStudio.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6DA6EDA6D59124341231C39009FCB519A9C6C7C9</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/binglingshuang/QMiniGameStuido.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6DA6EDA6D59124341231C39009FCB519A9C6C7C9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6DA6EDA6D59124341231C39009FCB519A9C6C7C9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>QMiniGameStudio</string>
+		</dict>
+	</array>
+</dict>
+</plist>

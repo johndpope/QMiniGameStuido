@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E8BBAA41A528D28008848EA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8BBAA31A528D28008848EA /* main.cpp */; };
+		7E8BBAA61A528D28008848EA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E8BBAA51A528D28008848EA /* Images.xcassets */; };
+		7E8BBAB51A528D28008848EA /* IceBirdStudioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8BBAB41A528D28008848EA /* IceBirdStudioTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E8BBAAF1A528D28008848EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E8BBA931A528D28008848EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E8BBA9A1A528D28008848EA;
+			remoteInfo = IceBirdStudio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E8BBA9B1A528D28008848EA /* IceBirdStudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IceBirdStudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E8BBA9F1A528D28008848EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E8BBAA31A528D28008848EA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7E8BBAA51A528D28008848EA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7E8BBAAE1A528D28008848EA /* IceBirdStudioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IceBirdStudioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E8BBAB31A528D28008848EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E8BBAB41A528D28008848EA /* IceBirdStudioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IceBirdStudioTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E8BBA981A528D28008848EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E8BBAAB1A528D28008848EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E8BBA921A528D28008848EA = {
+			isa = PBXGroup;
+			children = (
+				7E8BBA9D1A528D28008848EA /* IceBirdStudio */,
+				7E8BBAB11A528D28008848EA /* IceBirdStudioTests */,
+				7E8BBA9C1A528D28008848EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E8BBA9C1A528D28008848EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E8BBA9B1A528D28008848EA /* IceBirdStudio.app */,
+				7E8BBAAE1A528D28008848EA /* IceBirdStudioTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E8BBA9D1A528D28008848EA /* IceBirdStudio */ = {
+			isa = PBXGroup;
+			children = (
+				7E8BBAA51A528D28008848EA /* Images.xcassets */,
+				7E8BBA9E1A528D28008848EA /* Supporting Files */,
+			);
+			path = IceBirdStudio;
+			sourceTree = "<group>";
+		};
+		7E8BBA9E1A528D28008848EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E8BBA9F1A528D28008848EA /* Info.plist */,
+				7E8BBAA31A528D28008848EA /* main.cpp */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E8BBAB11A528D28008848EA /* IceBirdStudioTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E8BBAB41A528D28008848EA /* IceBirdStudioTests.m */,
+				7E8BBAB21A528D28008848EA /* Supporting Files */,
+			);
+			path = IceBirdStudioTests;
+			sourceTree = "<group>";
+		};
+		7E8BBAB21A528D28008848EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E8BBAB31A528D28008848EA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E8BBA9A1A528D28008848EA /* IceBirdStudio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E8BBAB81A528D28008848EA /* Build configuration list for PBXNativeTarget "IceBirdStudio" */;
+			buildPhases = (
+				7E8BBA971A528D28008848EA /* Sources */,
+				7E8BBA981A528D28008848EA /* Frameworks */,
+				7E8BBA991A528D28008848EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IceBirdStudio;
+			productName = IceBirdStudio;
+			productReference = 7E8BBA9B1A528D28008848EA /* IceBirdStudio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E8BBAAD1A528D28008848EA /* IceBirdStudioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E8BBABB1A528D28008848EA /* Build configuration list for PBXNativeTarget "IceBirdStudioTests" */;
+			buildPhases = (
+				7E8BBAAA1A528D28008848EA /* Sources */,
+				7E8BBAAB1A528D28008848EA /* Frameworks */,
+				7E8BBAAC1A528D28008848EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E8BBAB01A528D28008848EA /* PBXTargetDependency */,
+			);
+			name = IceBirdStudioTests;
+			productName = IceBirdStudioTests;
+			productReference = 7E8BBAAE1A528D28008848EA /* IceBirdStudioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E8BBA931A528D28008848EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = binglingshuang;
+				TargetAttributes = {
+					7E8BBA9A1A528D28008848EA = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					7E8BBAAD1A528D28008848EA = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 7E8BBA9A1A528D28008848EA;
+					};
+				};
+			};
+			buildConfigurationList = 7E8BBA961A528D28008848EA /* Build configuration list for PBXProject "IceBirdStudio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E8BBA921A528D28008848EA;
+			productRefGroup = 7E8BBA9C1A528D28008848EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E8BBA9A1A528D28008848EA /* IceBirdStudio */,
+				7E8BBAAD1A528D28008848EA /* IceBirdStudioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E8BBA991A528D28008848EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E8BBAA61A528D28008848EA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E8BBAAC1A528D28008848EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E8BBA971A528D28008848EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E8BBAA41A528D28008848EA /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E8BBAAA1A528D28008848EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E8BBAB51A528D28008848EA /* IceBirdStudioTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E8BBAB01A528D28008848EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E8BBA9A1A528D28008848EA /* IceBirdStudio */;
+			targetProxy = 7E8BBAAF1A528D28008848EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7E8BBAB61A528D28008848EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7E8BBAB71A528D28008848EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7E8BBAB91A528D28008848EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = IceBirdStudio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-D_FILE_OFFSET_BITS=64",
+					"-DWXUSINGDLL",
+					"-D__WXMAC__",
+					"-D__WXOSX__",
+					"-D__WXOSX_COCOA__",
+				);
+				OTHER_LDFLAGS = (
+					"-L$(SRCROOT)/IceBirdStudio/extension/wxWidgets/libs/debug",
+					"-framework",
+					IOKit,
+					"-framework",
+					Carbon,
+					"-framework",
+					Cocoa,
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					System,
+					"-framework",
+					OpenGL,
+					"-lwx_osx_cocoau_xrc-3.1",
+					"-lwx_osx_cocoau_html-3.1",
+					"-lwx_osx_cocoau_qa-3.1",
+					"-lwx_osx_cocoau_adv-3.1",
+					"-lwx_osx_cocoau_core-3.1",
+					"-lwx_baseu_xml-3.1",
+					"-lwx_baseu_net-3.1",
+					"-lwx_baseu-3.1",
+					"-lwx_osx_cocoau_aui-3.1",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/IceBirdStudio/extension/wxWidgets/include $(SRCROOT)/IceBirdStudio/extension/wxWidgets/libs/debug/wx/include/osx_cocoa-unicode-3.1";
+			};
+			name = Debug;
+		};
+		7E8BBABA1A528D28008848EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode6.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = IceBirdStudio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-D_FILE_OFFSET_BITS=64",
+					"-DWXUSINGDLL",
+					"-D__WXMAC__",
+					"-D__WXOSX__",
+					"-D__WXOSX_COCOA__",
+				);
+				OTHER_LDFLAGS = (
+					"-L$(SRCROOT)/IceBirdStudio/extension/wxWidgets/libs/debug",
+					"-framework",
+					IOKit,
+					"-framework",
+					Carbon,
+					"-framework",
+					Cocoa,
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					System,
+					"-framework",
+					OpenGL,
+					"-lwx_osx_cocoau_xrc-3.1",
+					"-lwx_osx_cocoau_html-3.1",
+					"-lwx_osx_cocoau_qa-3.1",
+					"-lwx_osx_cocoau_adv-3.1",
+					"-lwx_osx_cocoau_core-3.1",
+					"-lwx_baseu_xml-3.1",
+					"-lwx_baseu_net-3.1",
+					"-lwx_baseu-3.1",
+					"-lwx_osx_cocoau_aui-3.1",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/IceBirdStudio/extension/wxWidgets/include $(SRCROOT)/IceBirdStudio/extension/wxWidgets/libs/debug/wx/include/osx_cocoa-unicode-3.1";
+			};
+			name = Release;
+		};
+		7E8BBABC1A528D28008848EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IceBirdStudioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IceBirdStudio.app/Contents/MacOS/IceBirdStudio";
+			};
+			name = Debug;
+		};
+		7E8BBABD1A528D28008848EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IceBirdStudioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IceBirdStudio.app/Contents/MacOS/IceBirdStudio";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E8BBA961A528D28008848EA /* Build configuration list for PBXProject "IceBirdStudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E8BBAB61A528D28008848EA /* Debug */,
+				7E8BBAB71A528D28008848EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E8BBAB81A528D28008848EA /* Build configuration list for PBXNativeTarget "IceBirdStudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E8BBAB91A528D28008848EA /* Debug */,
+				7E8BBABA1A528D28008848EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E8BBABB1A528D28008848EA /* Build configuration list for PBXNativeTarget "IceBirdStudioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E8BBABC1A528D28008848EA /* Debug */,
+				7E8BBABD1A528D28008848EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E8BBA931A528D28008848EA /* Project object */;
+}
